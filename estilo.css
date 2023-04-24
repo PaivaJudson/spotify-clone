@@ -89,9 +89,29 @@ nav.navbar-transparente{
     color: black;
 }
 
+/* servicos */
+
+#servicos{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns{
+    padding: 10px 0px 10px 0px;
+}
+
+/* tipografia */
+
 h1{
     font-size: 100px;
     font-weight: 900;
     letter-spacing: -0.05em;
     margin-bottom: 50px;
+}
+
+h2{
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
