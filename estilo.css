@@ -1,7 +1,11 @@
+html, body, .capa{
+    height: 100%;
+}
+
 body{
-    border: 1px solid red;
     background: url('imagens/capa.png'), url('imagens/ruido.png'), linear-gradient(50deg,#ff4169, #7c26f8);
     background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 .img-logo{
@@ -44,3 +48,22 @@ nav.navbar-transparente{
 
 /* capa  */
 
+.capa{
+    display: table;
+    width: 100%;
+}
+
+.texto-capa{
+    text-align: center;
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+}
