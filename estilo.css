@@ -1,3 +1,9 @@
+body{
+    border: 1px solid red;
+    background: url('imagens/capa.png'), url('imagens/ruido.png'), linear-gradient(50deg,#ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+
 .img-logo{
     height: 40px;
     width: 132px;
@@ -34,3 +40,7 @@ nav.navbar-transparente{
 .navbar-inverse .navbar-nav > li > a:hover{
     color: #9bf0e1;
 }
+
+
+/* capa  */
+
