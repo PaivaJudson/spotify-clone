@@ -101,6 +101,15 @@ nav.navbar-transparente{
     padding: 10px 0px 10px 0px;
 }
 
+.texto-roxo{
+    color: #7c25f8;
+}
+
+
+#servicos h2, h3 {
+    color: #7c25f8;
+}
+
 /* tipografia */
 
 h1{
@@ -112,6 +121,11 @@ h1{
 
 h2{
     font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+h3{
+    font-size: 35px;
     font-weight: 700;
     letter-spacing: -0.04em;
 }
