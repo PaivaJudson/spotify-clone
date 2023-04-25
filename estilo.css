@@ -6,6 +6,7 @@ body{
     background: url('imagens/capa.png'), url('imagens/ruido.png'), linear-gradient(50deg,#ff4169, #7c26f8);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 .img-logo{
@@ -106,8 +107,26 @@ nav.navbar-transparente{
 }
 
 
-#servicos h2, h3 {
+#servicos h2, #servicos h3 {
     color: #7c25f8;
+}
+
+/* recursos */
+
+#recursos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1
+}
+
+
+.rotacionar{
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 /* tipografia */
