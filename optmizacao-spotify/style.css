@@ -1,0 +1,44 @@
+@media screen {
+    p {
+        font-size: 20px;
+        color: blue;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        background-color: red;
+    }
+
+    p {
+        color: rgb(217, 246, 2);
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: greenyellow;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    body {
+        background-color: black;
+    }
+
+    p {
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-color: rgb(243, 243, 243);
+    }
+
+    p {
+        color: rgb(244, 3, 179);
+    }
+}
